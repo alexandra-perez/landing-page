@@ -1,0 +1,89 @@
+* {
+  font-family: "helvetica", sans-serif;
+}
+/* Google how to get rid of borders around the page!*/
+main {
+  background-image: url('background.jpg');
+  background-size:1000px;
+}
+
+header {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  background-color: black;
+  margin: 0 auto;
+  padding: 0;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+}
+
+ul li a {
+  padding: 0 20px;
+  text-decoration: none;
+  color: #ffff;
+  font-weight: 400;
+  font-size: 24px;
+}
+a {
+  color: #ffff;
+}
+a:active,
+a:hover,
+a:visited {
+  color: #ffff;
+}
+main {
+  display: flex;
+  padding-bottom: 20px;
+}
+
+img .logo {
+  max-height: 90px;
+}
+
+h1 {
+  padding-bottom: 25px;
+  font-weight: 700;
+  font-size:60px;
+}
+
+h2{
+  font-weight: 300;
+  font-size: 40px;
+}
+
+button {
+  font-size: 30px;
+  display: block;
+  text-align: center;
+  border-color: transparent;
+  border-radius: 4px;
+  background-color: #b852fe;
+  color: #ffff;
+  padding: 10px 20px;
+}
+
+.container-left {
+  padding: 20px;
+  display:flex;
+  flex-direction: column;
+}
+.iphone-right {
+  padding: 40px;
+  display:flex;
+  flex-direction: column;
+}
+
+.footer{
+  text-align: right;
+  margin-top: 100px;
+  background-color: black;
+  color:white;
+  padding: 20px;
+  margin: 0 auto;
+}
